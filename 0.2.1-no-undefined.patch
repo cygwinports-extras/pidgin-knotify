@@ -1,0 +1,10 @@
+--- origsrc/pidgin-knotify-0.2.1/src/Makefile.am	2009-10-11 07:26:05.000000000 -0500
++++ src/pidgin-knotify-0.2.1/src/Makefile.am	2010-01-18 00:16:41.634201100 -0600
+@@ -1,6 +1,6 @@
+ pidgin_knotifydir = $(PIDGIN_LIBDIR)/pidgin
+ 
+-pidgin_knotify_la_LDFLAGS = -module -avoid-version
++pidgin_knotify_la_LDFLAGS = -module -avoid-version -no-undefined
+ 
+ if PLUGINS
+ 
