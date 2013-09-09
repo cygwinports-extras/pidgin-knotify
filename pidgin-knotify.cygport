@@ -1,0 +1,11 @@
+NAME="pidgin-knotify"
+VERSION=0.2.1
+RELEASE=1
+CATEGORY="Net"
+SUMMARY="Pidgin KNotify notifications plugin"
+DESCRIPTION="A Pidgin plugin for providing notifications via KDE4 KNotify."
+HOMEPAGE="http://code.google.com/p/pidgin-knotify/"
+SRC_URI="http://pidgin-knotify.googlecode.com/files/${NAME}-${VERSION}.tar.gz"
+PATCH_URI="0.2.1-no-undefined.patch"
+
+DISTCLEANFILES="Makefile config.h config.status src/Makefile"

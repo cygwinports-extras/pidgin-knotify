@@ -1,4 +1,0 @@
-category: Net KDE
-requires: knotify4 libgcc1 libglib2.0_0 libpurple0
-sdesc: "Pidgin KNotify notifications plugin"
-ldesc: "A Pidgin plugin for providing notifications via KDE4 KNotify."
